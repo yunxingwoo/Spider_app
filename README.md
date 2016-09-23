@@ -13,4 +13,5 @@
 ##Tickets
 ###这是查询12306程序的爬虫小程序
 ###tickets [-gdtkz] <from> <to> <date> 
-###Example：./tickets beijing shanghai 2016-09-23
+###Example：./tickets 北京 上海 2016-09-23
+>>支持中文输入

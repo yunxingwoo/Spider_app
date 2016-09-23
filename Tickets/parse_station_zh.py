@@ -10,7 +10,7 @@ r = requests.get(url,verify = False)
 stations = re.findall(r'([\u4e00-\u9fa5]{1,6})\|([A-Z]+)',r.text)
 stations = dict(stations)
 #pprint(stations)
-stations = dict(zip(stations.values(),stations.keys()))
+#stations = dict(zip(stations.values(),stations.keys()))
 
 pprint(stations,indent=4)
 

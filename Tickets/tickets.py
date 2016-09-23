@@ -20,7 +20,7 @@ Example:
 """
 
 from docopt import docopt
-from stations import stations
+from stations_zh import stations
 import requests
 from prettytable import PrettyTable
 
